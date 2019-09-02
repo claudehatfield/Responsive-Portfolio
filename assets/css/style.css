@@ -240,6 +240,14 @@ input[type=submit] {
      .auth-image{
        min-width: 100%;
      }
+     .work{
+       min-width: 100%;
+     }
+     ul{
+       list-style-type: none;
+       padding: 0;
+     }
+     
     }
 
     
