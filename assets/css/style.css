@@ -53,7 +53,7 @@ h3 {
 /* header */
 
 #masthead {
-  position: fixed;
+  
   z-index: 99;
   width: 100%;
   margin: 0 0 30px;
@@ -258,15 +258,19 @@ input[type=submit] {
        list-style-type: none;
        padding: 0;
      }
+
+     footer{
+       position: relative;
+       top: 1600px;
+     }
+    }
      
     }
 
-    @media screen and (max-width: 768px){
+    @media screen and  (max-width: 768px){
 
-      #masthead{
-        position: static;
-      }
-
+      
+      
     nav{
      
      padding-right: 50px;
@@ -297,15 +301,40 @@ input[type=submit] {
     .work{
       width: 40%;
     }
-      
+    
     }
 
-    @media screen and (max-width: 980px){
+    @media screen and (max-width: 980px) {
 
-      .main-section{
-       
+      #masthead{
+        
         
       }
+     
+      .main-section{
+        position: absolute;
+        left: 30px;
+        padding-right: 100px;
+        width: 100%%;
+      
+        margin-top: 20px;
+
+      }
+
+      .test{
+        width: 100%
+      }
+
+      #logo{
+        
+        margin-left: 30px;
+      }
+
+      nav{
+        margin-right: 30px;
+      }
+
+      
     }
     
       
