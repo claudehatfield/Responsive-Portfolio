@@ -217,8 +217,75 @@ input[type=submit] {
   border: 0 none;
 }
 
+@media screen and (max-width: 980px) {
+
+  #masthead {}
+
+  .main-section {
+    
+    left: 30px;
+    padding-right: 100px;
+    width: 100%%;
+
+    margin-top: 20px;
+
+  }
+
+  .test {
+    width: 100%
+  }
+
+  #logo {
+
+    margin-left: 30px;
+  }
+
+  nav {
+    margin-right: 30px;
+  }
 
 
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+
+
+  nav {
+
+    padding-right: 50px;
+    margin-left: 2%;
+
+  }
+
+  #logo {
+    margin-left: 20px;
+  }
+
+  .main-section {
+    max-width: 768px;
+    width: 90%;
+    margin-left: 3%;
+
+  }
+
+  #main-container {
+    padding-top: 30px;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .work {
+    width: 40%;
+  }
+
+}
 
 @media screen and (max-width: 640px) {
 
@@ -268,72 +335,5 @@ input[type=submit] {
     top: 1600px;
   }
 }
-
-}
-
-@media screen and (max-width: 768px) {
-
-
-
-  nav {
-
-    padding-right: 50px;
-    margin-left: 2%;
-
-  }
-
-  #logo {
-    margin-left: 20px;
-  }
-
-  .main-section {
-    max-width: 768px;
-    width: 90%;
-    margin-left: 3%;
-
-  }
-
-  #main-container {
-    padding-top: 30px;
-  }
-
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-
-  .work {
-    width: 40%;
-  }
-
-}
-
-@media screen and (max-width: 980px) {
-
-  #masthead {}
-
-  .main-section {
-    position: absolute;
-    left: 30px;
-    padding-right: 100px;
-    width: 100%%;
-
-    margin-top: 20px;
-
-  }
-
-  .test {
-    width: 100%
-  }
-
-  #logo {
-
-    margin-left: 30px;
-  }
-
-  nav {
-    margin-right: 30px;
-  }
-
 
 }
